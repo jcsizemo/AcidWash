@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/kernel0"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/kernel1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/kernel0"
+        android:layout_alignBottom="@+id/kernel0"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/kernel2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/kernel1"
+        android:layout_alignBottom="@+id/kernel1"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/kernel3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/kernel0"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/kernel4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/kernel3"
+        android:layout_alignBottom="@+id/kernel3"
+        android:layout_alignLeft="@+id/kernel1"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/kernel5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/kernel4"
+        android:layout_alignBottom="@+id/kernel4"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/kernel6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/kernel3"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/kernel7"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/kernel6"
+        android:layout_alignBottom="@+id/kernel6"
+        android:layout_alignLeft="@+id/kernel4"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/kernel8"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/kernel7"
+        android:layout_alignBottom="@+id/kernel7"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/changevalues"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/kernelSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="saveEffect"
+        android:text="@string/kernelsave" />
+
+    <Button
+        android:id="@+id/kernelReturnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:defaultValue="0"
+        android:onClick="returnKernel"
+        android:text="@string/kernelreturn" />
+
+    <Button
+        android:id="@+id/kernelLoadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="loadEffect"
+        android:text="@string/kernelload" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/kernelReturnButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/preserve" />
+
+</RelativeLayout><!-- From: file:/Users/John/AndroidStudioProjects/PictureEffectCreator/pictureEffectCreator/src/main/res/layout/kernel_activity.xml -->

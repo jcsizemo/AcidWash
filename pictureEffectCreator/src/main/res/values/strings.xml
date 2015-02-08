@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Picture Effect Creator</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Picture Effect Creator</string>
+    <string name="desc">Working Image</string>
+    <string name="getimage">Get Image</string>
+    <string name="transform">Transform</string>
+    <string name="save">Save</string>
+    <string name="revert">Revert</string>
+    <string name="modifykernel">Modify Kernel</string>
+    <string name="help">Help</string>
+    <string name="kernelsave">Save</string>
+    <string name="kernelreturn">Return</string>
+    <string name="kernelload">Load</string>
+    <string name="changevalues">Change the values below.</string>
+    <string name="saveeffectname">Name this effect.</string>
+    <string name="preserve">Preserve brightness</string>
+    <string name="help_screen">Choose a picture to modify, and then select "Modify Kernel". Changing
+        the numbers within this grid will yield different effects. Some effects are provided for you
+        to help get things started. If the numbers within the grid sum to a number greater than or less
+        than 1, the resulting image will be either brighter or darker. To maintain a consistent
+        brightness, select the checkbox at the bottom of the kernel screen.</string>
+
+</resources>
